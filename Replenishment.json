@@ -1,0 +1,51 @@
+{
+  "correlationId" : "-494812065-2e27e0e0-ae31-11ee-84ab-d20eae973380",
+  "message" : "UpdateReplOrders",
+  "tracePoint" : "BEFORE_REQUEST",
+  "priority" : "INFO",
+  "elapsed" : 0,
+  "locationInfo" : {
+    "lineInFile" : "12",
+    "component" : "json-logger:logger",
+    "fileName" : "replenishOrder/updateReplOrders.xml",
+    "rootContainer" : "update-replorders-flow"
+  },
+  "timestamp" : "2024-01-08T14:21:19.556Z",
+  "content" : [ {
+    "Id" : "a3pKf000002GaXXIA0",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaPaIAK",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaO2IAK",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaY6IAK",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaYbIAK",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaZ4IAK",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaZOIA0",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  }, {
+    "Id" : "a3pKf000002GaZYIA0",
+    "Order_Number_OTC_TVNA__c" : "0129407133",
+    "Replenishment_Status__c" : "Submitted"
+  } ],
+  "applicationName" : "med_na_lighthou_sys",
+  "applicationVersion" : "v1",
+  "environment" : "prod",
+  "threadName" : "[MuleRuntime].uber.860: [med-na-lighthou-sys].update-replorders-flow.BLOCKING @434e0c27"
+}
