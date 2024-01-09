@@ -1,101 +1,100 @@
-[{
-    "AN": {
-        "delta": {
-            "tested": 1376,
-            "vaccinated1": 3,
-            "vaccinated2": 13
-        },
-        "delta21_14": {
-            "confirmed": 9
-        },
-        "delta7": {
-            "confirmed": 3,
-            "recovered": 5,
-            "tested": 8936,
-            "vaccinated1": 884,
-            "vaccinated2": 10640
-        },
-        "districts": [ {
-            "Nicobars": {
-                "delta7": {
-                    "vaccinated1": 62,
-                    "vaccinated2": 811
-                },
-                "meta": {
-                    "population": 36842
-                },
-                "total": {
-                    "vaccinated1": 25394,
-                    "vaccinated2": 20313
-                }
-            }],
-            "North and Middle Andaman": [{
-                "delta": {
-                    "vaccinated2": 8
-                },
-                "delta7": {
-                    "vaccinated1": 90,
-                    "vaccinated2": 1839
-                },
-                "meta": {
-                    "population": 105597
-                },
-                "total": {
-                    "vaccinated1": 78945,
-                    "vaccinated2": 59522
-                }
-            }],
-            "South Andaman": [{
-                "delta": {
-                    "vaccinated1": 3,
-                    "vaccinated2": 28
-                },
-                "delta7": {
-                    "vaccinated1": 732,
-                    "vaccinated2": 8012
-                },
-                "meta": {
-                    "population": 238142
-                },
-                "total": {
-                    "vaccinated1": 189662,
-                    "vaccinated2": 120322
-                }
-            }],
-            "Unknown": {
-                "delta21_14": {
-                    "confirmed": 9
-                },
-                "delta7": {
-                    "confirmed": 3,
-                    "recovered": 5
-                },
-                "total": {
-                    "confirmed": 7651,
-                    "deceased": 129,
-                    "recovered": 7518
-                }
-            }
-        },
-        "meta": {
-            "date": "2021-10-31",
-            "last_updated": "2021-11-01T11:03:10+05:30",
-            "population": 397000,
-            "tested": {
-                "date": "2021-10-31",
-                "source": "https://dhs.andaman.gov.in/NewEvents/851.pdf"
-            },
-            "vaccinated": {
-                "date": "2021-10-31"
-            }
-        },
-        "total": {
-            "confirmed": 7651,
-            "deceased": 129,
-            "recovered": 7518,
-            "tested": 598033,
-            "vaccinated1": 294001,
-            "vaccinated2": 200157
-        }
-    },
-]
+{
+  "correlationId" : "-12345-494812065-2e27e0e0-ae31-11ee-84ab-d20eae973380",
+  "message" : "FIMOrderSubmitPrcRequest ::0001804716 calling Order Prc",
+  "tracePoint" : "BEFORE_REQUEST",
+  "priority" : "INFO",
+  "elapsed" : 12,
+  "locationInfo" : {
+    "lineInFile" : "48",
+    "component" : "json-logger:logger",
+    "fileName" : "order-listener.xml",
+    "rootContainer" : "order-listener-flow"
+  },
+  "timestamp" : "2024-01-08T14:21:14.619Z",
+  "content" : {
+    "orderId" : "a0IKf00000TkNKwMAN",
+    "billingStatus" : "Submitted",
+    "payerRefEncrypted" : "**X*X**X***X***XX**XX**X**X**X*XXXX***XXX*X**X**XX*X*XX*X****X**XXXXXX***X******XX*****XXX*XXX**",
+    "orderName" : "0001804716",
+    "salesRepWWID" : "119168",
+    "shipTo" : "00002907",
+    "shippingMethod" : null,
+    "surgicalCaseDate" : "****-**-**X**:**:**.***X",
+    "surgicalCaseName" : "0001932130",
+    "typeTVNA" : "Billing",
+    "ucn" : "00002907",
+    "caseFacilityId" : "0013600001CoHALAA3",
+    "classOfTrade" : "1000",
+    "opCo" : "Trauma",
+    "ownerId" : "00536000002upfQAAQ",
+    "shipToId" : "0013600001CoHALAA3",
+    "shipToWWID" : null,
+    "surgeonID" : "**********",
+    "surgeonName" : "Xxxxx Xxxxxxxx",
+    "salesRepName" : "XXXX, XXX",
+    "salesRepID" : "0013g00000MAHr8AAH",
+    "salesRepMDMID" : "01497773",
+    "salesRepEmail" : "XXXXX*@XXX.XXX.XXX",
+    "salesRepPhone" : null,
+    "shippingTerritoryUCNTVNA" : "01486762",
+    "attentionShippingStreet1TVNA" : "ZATLTRAUMA",
+    "facilityTerritoryUCNTVNA" : "01486762",
+    "isReplenishOrder" : true,
+    "isBillingOrder" : true,
+    "isLBLOn" : true,
+    "replinishmentOrders" : [ {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaXXIA0",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaPaIAK",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaO2IAK",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaY6IAK",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaYbIAK",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaZ4IAK",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaZOIA0",
+      "AttentionLine" : "TRAUMA"
+    }, {
+      "ShipTo" : "00002907",
+      "ShippingTerritoryUCN" : "01486762",
+      "ShippingMethod" : "02",
+      "ReplenishmentOrderID" : "a3pKf000002GaZYIA0",
+      "AttentionLine" : "TRAUMA"
+    } ],
+    "orderSource" : "FIM"
+  },
+  "applicationName" : "app_na_lighthou-exp",
+  "applicationVersion" : "v1",
+  "environment" : "prod",
+  "threadName" : "[MuleRuntime].uber.248: [med-na-lighthou-exp].order-listener-flow.BLOCKING @7157e0c0"
+}
