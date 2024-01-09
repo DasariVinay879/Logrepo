@@ -1,0 +1,67 @@
+{
+   "correlationId":"-494812065-aa045020-aebf-11ee-84ab-d20eae973380",
+   "message":"FIMSFDCRequest ::0001806070",
+   "tracePoint":"START",
+   "priority":"INFO",
+   "elapsed":0,
+   "locationInfo":{
+      "lineInFile":"16",
+      "component":"json-logger:logger",
+      "fileName":"order-listener.xml",
+      "rootContainer":"order-listener-flow"
+   },
+   "timestamp":"2024-01-09T07:21:10.948Z",
+   "content":{
+      "data":{
+         "schema":"Dj5_S0hm0Yn4PMwlAbBlVQ",
+         "payload":{
+            "OTC_Order_Number__c":null,
+            "Type_TVNA__c":"Billing",
+            "Ship_To_Id__c":"0013600001CoIflAAF",
+            "ReplenishmentOrders__c":"[{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh4hIAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh03IAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh5QIAS\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh5fIAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh5zIAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh6EIAS\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh4EIAS\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh6iIAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gh72IAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gj7xIAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gj82IAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gj87IAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gj95IAC\",\"AttentionLine\":null},{\"ShipTo\":\"00009605\",\"ShippingTerritoryUCN\":\"01220399\",\"ShippingMethod\":\"02\",\"ReplenishmentOrderID\":\"a3pKf000002Gj9ZIAS\",\"AttentionLine\":null}]",
+            "Shipping_Territory_UCN_TVNA__c":"01220399",
+            "Sales_Rep_Phone__c":"773-771-6005",
+            "Surgical_Case_Date__c":"2024-01-08T16:00:00.000Z",
+            "Case_Facility_Id__c":"0013600001CoIflAAF",
+            "CreatedById":"0051R00000HLnMKQA1",
+            "Billing_Order_ID__c":"a0IKf00000TkOwSMAV",
+            "Ship_To_Name__c":null,
+            "isLBLSurCase_TVNA__c":true,
+            "Sales_Rep_WWID__c":"1023065",
+            "Surgeon_ID__c":"1740358308",
+            "Attention_Shipping_Street_1_TVNA__c":null,
+            "OpCo__c":"Spine",
+            "Order_Name__c":"0001806070",
+            "Sales_Rep_Email__c":"MOTT7@ITS.JNJ.COM",
+            "Encrypted_Payer_Ref__c":"86DEA7C620CCA3D94889E8759B43C7CB06A885B24C1B6A622AD22145B3905578",
+            "PO_Number__c":null,
+            "Surgeon_Name__c":"Purnendu Gupta",
+            "Ship_To_Loc_Territory_UCN__c":null,
+            "UCN__c":"00009605",
+            "ShipTo__c":"00009605",
+            "Billing_Status__c":"Submitted",
+            "Facility_Territory_UCN_TVNA__c":"01220399",
+            "Sales_Rep_Name__c":"OTT, MATTHEW",
+            "Sales_Rep_UserID__c":"0013600001CoakxAAB",
+            "Shipping_Method__c":null,
+            "ReadOnly_RecordType_Id__c":null,
+            "Owner_Id__c":"0051R00000HLnMKQA1",
+            "CreatedDate":"2024-01-09T07:21:09.887Z",
+            "Ship_To_WWID__c":null,
+            "Surgical_Case_Name__c":"0001933503",
+            "IsZKBSentToOTC__c":false,
+            "Class_of_Trade__c":"1000",
+            "IsZDELSentToOTC__c":false,
+            "Sales_Rep_MDMID__c":"01093084"
+         },
+         "event":{
+            "replayId":156261
+         }
+      },
+      "channel":"/event/Bill_Order_TVNA__e"
+   },
+   "applicationName":"med_na_lighthou-exp",
+   "applicationVersion":"v1",
+   "environment":"prod",
+   "threadName":"[MuleRuntime].uber.791: [med-na-lighthou-exp].order-listener-flow.BLOCKING @7157e0c0"
+}
