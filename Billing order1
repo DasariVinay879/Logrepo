@@ -1,0 +1,34 @@
+{
+  "correlationId" : "-494812065-2e27e0e0-ae31-11ee-84ab-d20eae973380",
+  "message" : "OrderUpdate",
+  "tracePoint" : "BEFORE_REQUEST",
+  "priority" : "INFO",
+  "elapsed" : 0,
+  "locationInfo" : {
+    "lineInFile" : "10",
+    "component" : "json-logger:logger",
+    "fileName" : "order/updateOrder.xml",
+    "rootContainer" : "update-order-flow"
+  },
+  "timestamp" : "2024-01-08T14:21:20.369Z",
+  "content" : {
+    "Id" : "a0IKf00000TkNKwMAN",
+    "BillingStatus_TVNA__c" : "Open PO",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  },{
+    "Id" : "a0IKf00000TkNKhelloooN",
+    "BillingStatus_TVNA__c" : "failed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  },{
+    "Id" : "a0IKf00000TkbyeeeAN",
+    "BillingStatus_TVNA__c" : "completed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+},
+  "applicationName" : "med_na_lighthou_sys",
+  "applicationVersion" : "v1",
+  "environment" : "prod",
+  "threadName" : "[MuleRuntime].uber.868: [med-na-lighthou-sys].update-order-flow.BLOCKING @3a4ced49"
+}
