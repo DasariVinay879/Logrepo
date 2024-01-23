@@ -1,0 +1,59 @@
+{
+  "correlationId" : "-494812065-2e27e0e0-ae31-11ee-84ab-d20eae973380",
+  "message" : "UpdateReplOrders",
+  "tracePoint" : "BEFORE_REQUEST",
+  "priority" : "INFO",
+  "elapsed" : 0,
+  "locationInfo" : {
+    "lineInFile" : "12",
+    "component" : "json-logger:logger",
+    "fileName" : "replenishOrder/updateReplOrders.xml",
+    "rootContainer" : "update-replorders-flow"
+  },
+  "timestamp" : "2024-01-08T14:21:19.556Z",
+  "content" : [ {
+    "Id" : "a0IKf00000TxyzwIaN",
+    "BillingStatus_TVNA__c" : "failed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwpto",
+    "BillingStatus_TVNA__c" : "Open PO",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwctn",
+    "BillingStatus_TVNA__c" : "completed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwbat",
+    "BillingStatus_TVNA__c" : "failed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwMAd",
+    "BillingStatus_TVNA__c" : "Open PO",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwcat",
+    "BillingStatus_TVNA__c" : "failed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwrat",
+    "BillingStatus_TVNA__c" : "failed",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  }, {
+    "Id" : "a0IKf00000TkNKwsat",
+    "BillingStatus_TVNA__c" : "Open PO",
+    "Order_Number_TVNA__c" : "0129407134",
+    "Order_Submission_Date_TVNA__c" : "2024-01-08T14:21:20.366Z"
+  } ],
+  "applicationName" : "med_na_lighthou_sys",
+  "applicationVersion" : "v1",
+  "environment" : "prod",
+  "threadName" : "[MuleRuntime].uber.860: [med-na-lighthou-sys].update-replorders-flow.BLOCKING @434e0c27"
+}
